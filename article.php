@@ -4,14 +4,14 @@
 $id = $_GET['id'];
 
 //Connect to MySQL
-$connection = mysql_connect('localhost', 'root', '');
+$connection = mysql_connect('localhost', 'root', 'test54321');
 
 //Select the 'allison_blog' database
 mysql_select_db('allison_blog');
 
 //Check connection
 if(!$connection){
-  die('Failed to connect to MySQL: ' . mysql_connect_error());
+  die('Failed to connect to MySQL: ' . mysql_errno());
 }
 
 //Get the row for $id from the 'articles' table
@@ -29,7 +29,7 @@ $row = mysql_fetch_array($result);
     <title>
       <?php
 
-        print 'The Pirate Blog: ' . $row['title'];
+        print 'Allison\'s Philly Blog: ' . $row['title'];
 
       ?>
     </title>
