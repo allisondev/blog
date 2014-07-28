@@ -25,6 +25,7 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
   <body>
     <h1>Welcome to Allison's Philly Blog</h1>
 
+    <div id="content">
     <?php
 
       //Loops through each row from the query result
@@ -45,6 +46,7 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
       }
 
     ?>
+    </div>
 
   </body>
 

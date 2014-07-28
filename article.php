@@ -37,13 +37,15 @@ $row = mysql_fetch_array($result);
   </head>
 
   <body>
-
+    
+    <h1>Allison's Philly Blog</h1> 
+    <div id="content">
     <?php
 
       print '<article>';
 
       //Prints title
-      print '<h1>' . $row['title']  . '</h1>';
+      print '<h2>' . $row['title']  . '</h1>';
 
       //Prints the author
       print '<em>By: <a href="mailto: ' . $row['author_email_address']  . ' ">' . $row['author_name'] . '</a></em>';
@@ -54,7 +56,7 @@ $row = mysql_fetch_array($result);
       print '</article>';
 
     ?>
-
+    </div>
   </body>
 
 </html>
