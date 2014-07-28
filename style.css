@@ -1,0 +1,53 @@
+html {
+
+  background-color: black;
+  color: white;
+  
+  font-size: 125%;
+  font-family: "Book Antiqua";
+}
+
+
+h1 {
+
+  color: red;
+  
+  font-size: 300%;
+  font-weight: bold;
+
+  text-align: center;
+  margin: 1%;
+}
+
+h2 a {
+
+  font-size: 175%
+}
+
+
+article {
+
+  margin: 5% 5% 10%;
+  padding: 2% 5%; 
+  
+  color: black; 
+  background-color: #EEFF57;
+
+  border-radius: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover{
+
+  text-decoration: underline;
+}
+
+a:visited {
+
+  color: #B82A4B;
+}
+
