@@ -20,11 +20,14 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
       Allison's Philly Blog
      </title>
     <link rel="stylesheet" type="text/css" href="style.css"/> 
+    <script type="text/javascript" src="scripts/blog.js"></script>
   </head>
 
   <body>
-    <h1>Welcome to Allison's Philly Blog</h1>
-
+    <header>
+      <h1>Welcome to Allison's Philly Blog</h1>
+    </header>
+    
     <div id="content">
     <?php
 

@@ -34,11 +34,13 @@ $row = mysql_fetch_array($result);
       ?>
     </title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script type="text/javascript" src="scripts/blog.js"></script>
   </head>
 
   <body>
-    
-    <h1>Allison's Philly Blog</h1> 
+    <header>
+      <h1>Allison's Philly Blog</h1> 
+    </header>
     <div id="content">
     <?php
 
