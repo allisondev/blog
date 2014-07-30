@@ -33,7 +33,9 @@ $row = mysql_fetch_array($result);
 
       ?>
     </title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+    <script type="text/javascript"
+    src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
     <script type="text/javascript" src="scripts/blog.js"></script>
   </head>
 

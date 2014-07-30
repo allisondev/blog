@@ -19,8 +19,10 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
     <title>
       Allison's Philly Blog
      </title>
-    <link rel="stylesheet" type="text/css" href="style.css"/> 
-    <script type="text/javascript" src="scripts/blog.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/> 
+  <script type="text/javascript"
+  src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/blog.js"></script>
   </head>
 
   <body>
