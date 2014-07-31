@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('header').append('<a href="#!" ><img id="larger-text-icon" src="images/larger-text.png" alt="Enlarge Text" /></a>');
+	$('header').append('<a href="#!" ><img id="larger-text-icon" src="images/enlarge_text_button.png" alt="Enlarge Text" /></a>');
 
     $('#larger-text-icon').click(function(){
       
