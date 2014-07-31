@@ -1,5 +1,5 @@
 /*
-Syntax error: Invalid CSS after "  	line-height": expected ";", was ": 1.2em;"
+Syntax error: Invalid CSS after "  	line-height": expected ";", was ": 110%;"
         on line 134 of /Users/hiusuenlaw/Documents/Dev/blog/sass/screen.scss
 
 Backtrace:
@@ -74,4 +74,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"  	line-height\": expected \";\", was \": 1.2em;\"\A         on line 134 of /Users/hiusuenlaw/Documents/Dev/blog/sass/screen.scss"; }
+  content: "Syntax error: Invalid CSS after \"  	line-height\": expected \";\", was \": 110%;\"\A         on line 134 of /Users/hiusuenlaw/Documents/Dev/blog/sass/screen.scss"; }
