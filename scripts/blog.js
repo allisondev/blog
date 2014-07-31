@@ -18,7 +18,7 @@ $(document).ready(function(){
     // Clicking the header will slide up current page
     $(document).on('click', 'header h1 a', function(){
 
-      $(this).slideDown(500);
+      $(this).slideDown(3000);
 
     });
 });
