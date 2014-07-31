@@ -140,28 +140,36 @@ article {
 /* line 88, ../sass/screen.scss */
 article h2 {
   font-size: 1.75em;
-  padding: 1% 0%;
+  padding: 3% 0%;
 }
 /* line 93, ../sass/screen.scss */
+article em {
+  font-style: italic;
+}
+/* line 97, ../sass/screen.scss */
 article a {
   text-decoration: none;
   color: #551a8b;
 }
-/* line 97, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 article a:hover {
   text-decoration: underline;
 }
-/* line 101, ../sass/screen.scss */
+/* line 105, ../sass/screen.scss */
 article a:visited {
   color: #b82a4b;
 }
+/* line 111, ../sass/screen.scss */
+article p {
+  padding: 2% 0%;
+}
 
-/* line 109, ../sass/screen.scss */
+/* line 117, ../sass/screen.scss */
 .larger-text {
   font-size: 1.10em;
 }
 
-/* line 113, ../sass/screen.scss */
+/* line 121, ../sass/screen.scss */
 .largest-text {
   font-size: 1.25em;
 }

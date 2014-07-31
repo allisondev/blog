@@ -87,7 +87,11 @@ article {
 
   h2 {
     font-size: 1.75em;
-    padding: 1% 0%;
+    padding: 3% 0%;
+  }
+
+  em {
+  	font-style: italic;
   }
 
   a {
@@ -102,6 +106,10 @@ article {
   		color: $visitedred;
     }
 
+  }
+
+  p {
+  	padding: 2% 0%
   }
 
 }
