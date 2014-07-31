@@ -157,15 +157,3 @@ article p {
 .largest-text {
   font-size: 1.25em;
 }
-
-@media (max-width: 480px) {
-  #content h1 a {
-    font-size: 4em;
-  }
-  #content h2 {
-    font-size: 3em;
-  }
-  #content em, #content article {
-    font-size: 2em;
-  }
-}

@@ -142,23 +142,19 @@ article {
   font-size: 1.25em;
 }
 
-@media (max-width: 768px){
+// @media only screen and (max-width: 480px) {
+// 	#content {
+// 		h1 a {
+// 			font-size: 4em;
+// 		}
 
-}
+// 		h2 {
+// 			font-size: 3em;
+// 		}
 
-@media (max-width: 480px) {
-	#content {
-		h1 a {
-			font-size: 4em;
-		}
-
-		h2 {
-			font-size: 3em;
-		}
-
-		em, article {
-			font-size: 2em;
-		}
-	}
-}
+// 		em, article {
+// 			font-size: 2em;
+// 		}
+// 	}
+// }
 
