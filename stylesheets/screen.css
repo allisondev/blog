@@ -135,7 +135,7 @@ article h2 {
 }
 article em {
   font-style: italic;
-  padding: 3%;
+  padding: 3% 0%;
 }
 article a {
   text-decoration: none;
@@ -149,7 +149,7 @@ article a:visited {
 }
 article p {
   padding: 2% 0%;
-  line-height: 1.1em;
+  line-height: 1.25em;
 }
 
 .larger-text {
