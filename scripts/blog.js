@@ -15,12 +15,4 @@ $(document).ready(function(){
       }
     });
 
-    // Clicking the header will slide up current page
-    $('header h1 a').click(function(event){
-
-      console.log($(event.relatedTarget));
-
-      $(event.relatedTarget).slideDown(3000);
-
-    });
 });
