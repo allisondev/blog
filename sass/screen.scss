@@ -7,7 +7,6 @@
 @import "compass";
 @import "breakpoint";
 
-
 //Variables
 $breakpoint-small-width: max-width 400px;
 $breakpoint-medium-width: max-width 768px;
@@ -65,7 +64,7 @@ header {
     	padding: 5% 0%;
       }
 
-      @include breakpoint($breakpoing-small-width) {
+      @include breakpoint($breakpoint-small-width) {
     	font-size: 1.75em;
       }
 
