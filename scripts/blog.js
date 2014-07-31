@@ -18,11 +18,9 @@ $(document).ready(function(){
     // Clicking the header will slide up current page
     $('header h1 a').click(function(event){
 
-      console.log('Clicked header h1 a.');
-      console.log($(this));
+      console.log($(event.target));
 
       $(event.target).slideDown(3000);
-      return false;
 
     });
 });
