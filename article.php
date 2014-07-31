@@ -33,6 +33,7 @@ $row = mysql_fetch_array($result);
 
       ?>
     </title>
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="stylesheets/screen.css" />
     <script type="text/javascript"
     src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
