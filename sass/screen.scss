@@ -1,6 +1,12 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
 html {
 
-  /*background-color: gray;*/
   background-image: url('http://www.hiusuenlaw.com/images/photo.jpg');
   background-repeat: no-repeat;
   background-size: 300%;
@@ -18,7 +24,6 @@ body {
 
 header {
 
-  color: white;
   background-color: rgba(234, 71, 128, 1);
   font-size: 1.5em;
   font-weight: bold;
@@ -31,13 +36,27 @@ header {
   top: 0;
   position:fixed;
   z-index: 1;
+
+  h1 {
+    display: block;
+    width: 100%;
+    padding: 0;
+
+    a {
+  	  text-decoration: none;
+  	  color: white;
+    }
+  }
+
+  #larger-text-icon {
+    z-index: 1;
+    padding: 0% 5% 0% 0%;
+    margin: 1%;
+    float: right;
+  }
+
 }
 
-h1 {
-  display: block;
-  width: 100%;
-  padding: 0;
-}
 
 h2 {
 
@@ -89,11 +108,4 @@ a:visited {
 
 .largest-text {
   font-size: 1.25em;
-}
-
-#larger-text-icon {
-  z-index: 1;
-  padding: 0% 5% 0% 0%;
-  margin: 1%;
-  float: right;
 }
