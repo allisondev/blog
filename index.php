@@ -27,7 +27,7 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
 
   <body>
     <header>
-      <h1>Welcome to Allison's Philly Blog</h1>
+      <h1><a href="#">Allison's Philly Blog</a></h1>
     </header>
     
     <div id="content">

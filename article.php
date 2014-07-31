@@ -41,7 +41,7 @@ $row = mysql_fetch_array($result);
 
   <body>
     <header>
-      <h1>Allison's Philly Blog</h1> 
+      <h1><a href="index.php">Allison's Philly Blog</a></h1> 
     </header>
     <div id="content">
     <?php
