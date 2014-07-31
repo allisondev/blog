@@ -20,5 +20,5 @@ $(document).ready(function(){
 
       $(this).slideDown(500);
 
-    })
+    });
 });
