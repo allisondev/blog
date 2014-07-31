@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	$('header').prepend('<a href="#!" ><img id="larger-text-icon" src="images/enlarge_text_button.png" alt="Enlarge Text" /></a>');
 
+    // Clicking the larger text button will cycle through three text sizes
     $('#larger-text-icon').click(function(){
       
       if ($('#content').hasClass('larger-text')){
@@ -13,4 +14,11 @@ $(document).ready(function(){
           $('#content').addClass('larger-text');
       }
     });
+
+    // Clicking the header will slide up current page
+    $('header h1 a').live("click", function(){
+
+      $(this).slideDown(500);
+
+    })
 });
