@@ -3,14 +3,14 @@ $(document).ready(function(){
 
     $('#larger-text-icon').click(function(){
       
-      if ($('content').hasClass('larger-text')){
-        $('content').removeClass('larger-text').addClass('largest-text');
+      if ($('#content').hasClass('larger-text')){
+        $('#content').removeClass('larger-text').addClass('largest-text');
       }
-      else if ($('content').hasClass('largest-text')) {
-        $('content').removeClass('largest-text'); 
+      else if ($('#content').hasClass('largest-text')) {
+        $('#content').removeClass('largest-text'); 
       }
       else {
-          $('content').addClass('larger-text');
+          $('#content').addClass('larger-text');
       }
     });
 });
