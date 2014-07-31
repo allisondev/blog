@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     // Clicking the header will slide up current page
-    $('header h1 a').live("click", function(){
+    $(document).on('click', 'header h1 a', function(){
 
       $(this).slideDown(500);
 
