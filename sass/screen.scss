@@ -5,6 +5,9 @@
 
 @import "compass/reset";
 
+$linkpurple: #551a8b;
+$visitedred: #B82A4B;
+
 html {
 
   background-image: url('http://www.hiusuenlaw.com/images/photo.jpg');
@@ -40,11 +43,16 @@ header {
   h1 {
     display: block;
     width: 100%;
-    padding: 0;
+    padding: 5% 0%;
 
     a {
   	  text-decoration: none;
   	  color: white;
+  	  font-size: 2em;
+
+  	  &:hover{
+  	     text-decoration: none;
+  	  }
     }
   }
 
@@ -57,10 +65,14 @@ header {
 
 }
 
+div#content {
 
-h2 {
+  height: 80%;
+  width: 100%;
 
-  font-size: 1.75em;
+  position: relative;
+  top: 8em;
+  margin-top: 5%;
 }
 
 article {
@@ -72,34 +84,26 @@ article {
   background-color: white;
 
   border-radius: 25px;
-}
 
-div {
+  h2 {
+    font-size: 1.75em;
+    padding: 1% 0%;
+  }
 
-  height: 80%;
-  width: 100%;
-}
+  a {
+    text-decoration: none;
+    color: $linkpurple;
 
-div#content {
-  position: relative;
-  top: 8em;
-  margin-top: 5%;
+    &:hover {
+  		text-decoration: underline;
+    }
 
-}
+    &:visited {
+  		color: $visitedred;
+    }
 
-a {
-  text-decoration: none;
-  color: purple;
-}
+  }
 
-a:hover{
-
-  text-decoration: underline;
-}
-
-a:visited {
-
-  color: #B82A4B;
 }
 
 .larger-text {

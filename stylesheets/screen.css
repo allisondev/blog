@@ -67,7 +67,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 8, ../sass/screen.scss */
+/* line 11, ../sass/screen.scss */
 html {
   background-image: url("http://www.hiusuenlaw.com/images/photo.jpg");
   background-repeat: no-repeat;
@@ -77,13 +77,13 @@ html {
   font-family: "Book Antiqua";
 }
 
-/* line 20, ../sass/screen.scss */
+/* line 23, ../sass/screen.scss */
 body {
   margin: 0;
   padding: 0;
 }
 
-/* line 25, ../sass/screen.scss */
+/* line 28, ../sass/screen.scss */
 header {
   background-color: #ea4780;
   font-size: 1.5em;
@@ -96,18 +96,23 @@ header {
   position: fixed;
   z-index: 1;
 }
-/* line 40, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 header h1 {
   display: block;
   width: 100%;
-  padding: 0;
+  padding: 5% 0%;
 }
-/* line 45, ../sass/screen.scss */
+/* line 48, ../sass/screen.scss */
 header h1 a {
   text-decoration: none;
   color: white;
+  font-size: 2em;
 }
-/* line 51, ../sass/screen.scss */
+/* line 53, ../sass/screen.scss */
+header h1 a:hover {
+  text-decoration: none;
+}
+/* line 59, ../sass/screen.scss */
 header #larger-text-icon {
   z-index: 1;
   padding: 0% 5% 0% 0%;
@@ -115,12 +120,16 @@ header #larger-text-icon {
   float: right;
 }
 
-/* line 61, ../sass/screen.scss */
-h2 {
-  font-size: 1.75em;
+/* line 68, ../sass/screen.scss */
+div#content {
+  height: 80%;
+  width: 100%;
+  position: relative;
+  top: 8em;
+  margin-top: 5%;
 }
 
-/* line 66, ../sass/screen.scss */
+/* line 78, ../sass/screen.scss */
 article {
   margin: 5% 5% 10%;
   padding: 2% 5%;
@@ -128,42 +137,31 @@ article {
   background-color: white;
   border-radius: 25px;
 }
-
-/* line 77, ../sass/screen.scss */
-div {
-  height: 80%;
-  width: 100%;
+/* line 88, ../sass/screen.scss */
+article h2 {
+  font-size: 1.75em;
+  padding: 1% 0%;
 }
-
-/* line 83, ../sass/screen.scss */
-div#content {
-  position: relative;
-  top: 8em;
-  margin-top: 5%;
-}
-
-/* line 90, ../sass/screen.scss */
-a {
+/* line 93, ../sass/screen.scss */
+article a {
   text-decoration: none;
-  color: purple;
+  color: #551a8b;
 }
-
-/* line 95, ../sass/screen.scss */
-a:hover {
+/* line 97, ../sass/screen.scss */
+article a:hover {
   text-decoration: underline;
 }
-
-/* line 100, ../sass/screen.scss */
-a:visited {
-  color: #B82A4B;
+/* line 101, ../sass/screen.scss */
+article a:visited {
+  color: #b82a4b;
 }
 
-/* line 105, ../sass/screen.scss */
+/* line 109, ../sass/screen.scss */
 .larger-text {
   font-size: 1.10em;
 }
 
-/* line 109, ../sass/screen.scss */
+/* line 113, ../sass/screen.scss */
 .largest-text {
   font-size: 1.25em;
 }
