@@ -4,6 +4,13 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+@import "breakpoint";
+
+
+//Variables
+$breakpoint-small-width: max-width 400px;
+$breakpoint-medium-width: max-width 768px;
+$breakpoint-large-width: max-width 1111px;
 
 $linkpurple: #551a8b;
 $visitedred: #B82A4B;
@@ -41,18 +48,31 @@ header {
   z-index: 1;
 
   h1 {
-    display: block;
+
     width: 100%;
-    padding: 5% 0%;
 
     a {
+
+      display: block;
+      padding: 2%;
+
   	  text-decoration: none;
   	  color: white;
   	  font-size: 2em;
 
+      @include breakpoint($breakpoint-medium-width) {
+    	padding: 5% 0%;
+      }
+
+      @include breakpoint($breakpoing-small-width) {
+    	font-size: 1.75em;
+      }
+
   	  &:hover{
   	     text-decoration: none;
   	  }
+
+
     }
   }
 
