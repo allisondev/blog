@@ -12,6 +12,7 @@ $breakpoint-small-width: max-width 480px;
 $breakpoint-medium-width: max-width 768px;
 $breakpoint-large-width: max-width 1111px;
 
+$headerpink: #EA4780;
 $linkpurple: #551a8b;
 $visitedred: #B82A4B;
 
@@ -34,7 +35,7 @@ body {
 
 header {
 
-  background-color: rgba(234, 71, 128, 1);
+  background-color: $headerpink;
   font-size: 1.5em;
   font-weight: bold;
 
