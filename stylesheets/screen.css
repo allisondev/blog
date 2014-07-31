@@ -61,7 +61,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 html {
   background-image: url("../images/magic_wheel.jpg");
   background-repeat: no-repeat;
-  background-size: 300%;
+  background-size: 100%;
   background-attachment: fixed;
   font-size: 1em;
   font-family: "Book Antiqua";
@@ -99,7 +99,7 @@ header h1 a {
     padding: 5% 0%;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   header h1 a {
     font-size: 1.75em;
   }
@@ -156,4 +156,10 @@ article p {
 
 .largest-text {
   font-size: 1.25em;
+}
+
+@media (max-width: 480px) {
+  #content {
+    width: 300px;
+  }
 }
