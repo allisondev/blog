@@ -1,7 +1,7 @@
 <?php
 
 //Connect to MySQL
-$connection = mysql_connect('localhost', 'root', 'test54321');
+$connection = mysql_connect('localhost', 'root', '');
 
 //Select the 'allison_blog' database
 mysql_select_db('allison_blog');
@@ -39,7 +39,7 @@ $result = mysql_query('SELECT articles.id, articles.title, authors.author_name, 
         print '<article>';
 
         //Prints an h2 with link for each article
-        print '<h2><a href="/allison/blog/article.php?id=' . $row['id'] . '">'  . $row['title'] . '</a></h2>';
+        print '<h2><a href="/blog/article.php?id=' . $row['id'] . '">'  . $row['title'] . '</a></h2>';
 
         //Prints the author name with mailto link
         print '<em>By: <a href="mailto: ' . $row['author_email_address']  . '">' . $row['author_name'] . '</a></em>';

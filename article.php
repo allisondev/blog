@@ -4,7 +4,7 @@
 $id = $_GET['id'];
 
 //Connect to MySQL
-$connection = mysql_connect('localhost', 'root', 'test54321');
+$connection = mysql_connect('localhost', 'root', '');
 
 //Select the 'allison_blog' database
 mysql_select_db('allison_blog');
